@@ -5,7 +5,7 @@ import Workflow from "./components/Workflow";
 import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
 import Watch from "./components/Watch";
-
+import ChatBot from "./components/ChatBot";
 const App = () => {
   return (
     <>
@@ -13,6 +13,7 @@ const App = () => {
       <div className="max-w-7xl mx-auto pt-20 px-6">
         <Watch />
         <Footer />
+        <ChatBot />
       </div>
     </>
   );
